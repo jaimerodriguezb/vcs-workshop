@@ -17,3 +17,7 @@ class Command:
 
 # Implementar comandos
 
+class substract(Command):
+	def execute(self):
+		return self.a - self.b
+		
