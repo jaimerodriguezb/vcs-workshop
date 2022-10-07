@@ -16,4 +16,6 @@ class Command:
 		raise Exception('Overwrite this one pls')
 
 # Implementar comandos
-
+class Add(Command):
+	def execute(self):
+		return self.a + self.b
