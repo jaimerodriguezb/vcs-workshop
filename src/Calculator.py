@@ -17,3 +17,6 @@ class Command:
 
 # Implementar comandos
 
+class Divide(Command):
+	def execute(self):
+		return self.a / self.b
