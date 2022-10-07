@@ -17,3 +17,11 @@ class Command:
 
 # Implementar comandos
 
+class Potencia(Command):
+	def execute(self):
+		result =1
+		for i in range(b):
+			result = result * a
+		return result
+
+		
