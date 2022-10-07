@@ -12,8 +12,11 @@ class Command:
 	def execute(self):
 	'''
 	Por favor sobreescribir este método en cada commando.
-	'''
+	''' 
 		raise Exception('Overwrite this one pls')
 
 # Implementar comandos
-
+class Multiply(Command):	
+	def execute(self):
+	result = self.a * self.b
+	return result
