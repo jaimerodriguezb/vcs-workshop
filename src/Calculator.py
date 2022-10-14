@@ -20,3 +20,7 @@ class Command:
 class Divide(Command):
 	def execute(self):
 		return self.a / self.b
+
+class Add(Command):
+	def execute(self):
+		return self.a + self.b
