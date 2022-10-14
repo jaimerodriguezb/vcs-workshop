@@ -16,6 +16,9 @@ class Command:
 		raise Exception('Overwrite this one pls')
 
 # Implementar comandos
+class Add(Command):
+	def execute(self):
+		return self.a + self.b
 
 class Potencia(Command):
 	def execute(self):
@@ -23,5 +26,3 @@ class Potencia(Command):
 		for i in range(b):
 			result = result * a
 		return result
-
-		
