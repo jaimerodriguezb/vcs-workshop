@@ -26,3 +26,7 @@ class Potencia(Command):
 		for i in range(b):
 			result = result * a
 		return result
+    
+class Divide(Command):
+	def execute(self):
+		return self.a / self.b
