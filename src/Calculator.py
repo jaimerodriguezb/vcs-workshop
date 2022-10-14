@@ -16,6 +16,11 @@ class Command:
 		raise Exception('Overwrite this one pls')
 
 # Implementar comandos
+
+class Divide(Command):
+	def execute(self):
+		return self.a / self.b
+
 class Add(Command):
 	def execute(self):
 		return self.a + self.b
